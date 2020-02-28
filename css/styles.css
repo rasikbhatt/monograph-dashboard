@@ -100,3 +100,33 @@ nav img{
     background-color:  hsl(0, 100%, 68%);
     color: white;
 }
+@media only screen and (min-width:1024px){
+    body{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .sec1{
+        width: 50%;
+    }
+    .sec2{
+        width: 50%;
+        margin: 7% 0;
+    }
+    nav img{
+        margin-left: -110%;
+    }
+    /* .dropdown-btn{
+        display: none;
+    }
+    .dropdown-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 50%;
+    } */
+    .heroimage{
+        padding: 10% 0%;
+        height: auto;
+        object-position: 65px 0;
+    }
+}
